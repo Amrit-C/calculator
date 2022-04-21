@@ -1,0 +1,20 @@
+.buttons{
+    border-style: solid;
+    border-width: 2px;
+    font-size: 36px;
+    border-radius: 12px;
+
+}
+
+.digits{
+    background-color: rgb(250, 0, 0);
+}
+
+.operators{
+    background-color: orange;
+}
+
+.display{
+    background-color: rgb(255, 0, 0);
+} 
+
