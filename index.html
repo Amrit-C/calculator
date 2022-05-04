@@ -9,34 +9,40 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
 
 </head>
-<body>
+<body class="bod">
     <script src="./js/javascript.js" defer> </script>
     <div class="calculator">
-        <div class="output-display"></div>
-        
-        <button class="buttons digits">0</button>
-        <button class="buttons digits">1</button>
-        <button class="buttons digits">2</button>
-        <button class="buttons digits">3</button>
-        <button class="buttons digits">4</button>
-        <button class="buttons digits">5</button>
-        <button class="buttons digits">6</button>
-        <button class="buttons digits">7</button>
-        <button class="buttons digits">8</button>
-        <button class="buttons digits">9</button>
-        <button class="buttons decimal">.</button>
-        
-        <button class="buttons operators" id = "subtract">&#8722</button>
-        <button class="buttons operators" id = "add">&#43</button>
-        <button class="buttons operators" id = "multiply">&#215</button>
-        <button class="buttons operators" id = "divide">&#247</button>
-        <button class="buttons equals" id = "equals">&#61</button>
 
-        <!-- <button class="operators">test</button> -->
+        <div class="output-display"></div>
+
+        <div class="miscBtns">
+                <button class="buttons misc" id ="clear">AC</button>
+                <button class="buttons misc" id = "plus-minus">&plusmn</button>
+                <button class="buttons misc" id = "percent">&#37</button>
+        </div>
+            
+        <div class="operatorBtns">
+            <button class="buttons operators" id = "divide">&#247</button>
+            <button class="buttons operators" id = "multiply">&#215</button>
+            <button class="buttons operators" id = "subtract">&#8722</button>
+            <button class="buttons operators" id = "add">&#43</button>
+            <button class="buttons equals" id = "equals">&#61</button>
+        </div>
+            
+        <div class="digitBtns">
+            <button class="buttons digits">9</button>
+            <button class="buttons digits">8</button>
+            <button class="buttons digits">7</button>
+            <button class="buttons digits">6</button>
+            <button class="buttons digits">5</button>
+            <button class="buttons digits">4</button>
+            <button class="buttons digits">3</button>
+            <button class="buttons digits">2</button>
+            <button class="buttons digits">1</button>
+            <button class="buttons digits zero">0</button>
+            <button class="buttons decimal">.</button>
+        </div>
         
-        <button class="buttons misc" id ="clear">Clear</button>
-        <button class="buttons misc" id = "plus-minus">&plusmn</button>
-        <button class="buttons misc" id = "percent">&#37</button>
     </div>
 
 </body>

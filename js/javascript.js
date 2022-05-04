@@ -73,8 +73,8 @@ clearBtn.addEventListener('click', e => {
     firstDigit = 0; 
     secondDigit = 0;
     operator = '';
-    displayValueWithOperator = 0;
-    displayValueWithoutOperator = 0;
+    displayValueWithOperator = '';
+    displayValueWithoutOperator = '';
 })
 
 //Operator Selection
